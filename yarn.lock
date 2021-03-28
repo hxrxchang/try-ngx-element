@@ -216,6 +216,13 @@
   dependencies:
     tslib "^2.0.0"
 
+"@angular/elements@^11.2.7":
+  version "11.2.7"
+  resolved "https://registry.yarnpkg.com/@angular/elements/-/elements-11.2.7.tgz#b980c34073bdd70532c9ef3cbc725ab85e407015"
+  integrity sha512-QOrKorXWggsQDEAy18Stip4j96GPbA7URFvTkK7+09/HFKzWwIrN/M2dzwW6WtCEhhQW/aSvG5M+ANgvBdQ4QQ==
+  dependencies:
+    tslib "^2.0.0"
+
 "@angular/forms@~11.2.7":
   version "11.2.7"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-11.2.7.tgz#42c47906123397e6adee8b3d02f389c28ea942a2"
