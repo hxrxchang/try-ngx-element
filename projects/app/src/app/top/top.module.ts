@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Type } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TopComponent } from './components/top/top.component';
 
@@ -6,4 +6,6 @@ import { TopComponent } from './components/top/top.component';
   declarations: [TopComponent],
   imports: [CommonModule],
 })
-export class TopModule {}
+export class TopModule {
+  customElementComponent: Type<any> = TopComponent;
+}

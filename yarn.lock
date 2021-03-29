@@ -6052,6 +6052,11 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
+ngx-element@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/ngx-element/-/ngx-element-0.0.7.tgz#9dd32ed7f14a4281b2faf9aaaac7164836bfc7f1"
+  integrity sha512-KGvkRYlDOTTYr9BoV/Ut5Ld+iptYAsC8VOcm7vonT05dhTswPAN4OqdXNiSf0RG+I5cyTEYL5o/vAs/x5cpscQ==
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
