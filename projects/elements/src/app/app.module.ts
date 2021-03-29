@@ -1,8 +1,8 @@
 import { Injector, NgModule } from '@angular/core';
 import { createCustomElement } from '@angular/elements';
 import { BrowserModule } from '@angular/platform-browser';
-import { AboutComponent } from 'projects/app/src/app/components/about/about.component';
-import { TopComponent } from 'projects/app/src/app/components/top/top.component';
+import { AboutComponent } from 'projects/app/src/app/about/components/about/about.component';
+import { TopComponent } from 'projects/app/src/app/top/components/top/top.component';
 
 @NgModule({
   imports: [BrowserModule],
