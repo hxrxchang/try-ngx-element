@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Type } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutComponent } from './components/about/about.component';
 
@@ -6,4 +6,6 @@ import { AboutComponent } from './components/about/about.component';
   declarations: [AboutComponent],
   imports: [CommonModule],
 })
-export class AboutModule {}
+export class AboutModule {
+  customElementComponent: Type<any> = AboutComponent;
+}
