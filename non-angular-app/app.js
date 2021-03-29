@@ -22,15 +22,15 @@ app.listen(port, () => {
 
 function getJsFilePaths() {
   const filePaths = {};
-  fs.readdirSync("./public/js").forEach((file) => {
+  fs.readdirSync("./public").forEach((file) => {
     if (file.includes("main")) {
-      filePaths.main = `js/${file}`;
+      filePaths.main = file;
     }
     if (file.includes("polyfills")) {
-      filePaths.polyfills = `js/${file}`;
+      filePaths.polyfills = file;
     }
     if (file.includes("runtime")) {
-      filePaths.runtime = `js/${file}`;
+      filePaths.runtime = file;
     }
   });
   return filePaths;
